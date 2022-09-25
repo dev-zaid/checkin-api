@@ -11,6 +11,11 @@ export default {
     level: process.env.LOG_LEVEL || "silly",
   },
 
+  google: {
+    sheetURL:
+      process.env.SPREADSHEET_ID || "GIMME THE ID!",
+  },
+
   api: {
     prefix: "/api",
   },
